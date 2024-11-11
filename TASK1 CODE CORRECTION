@@ -1,5 +1,5 @@
 weather = "Sunny"
-if weather == "Sunny"
+if weather == "Sunny":
     print("wear sunglasses")
-    else:print("take an umbrella")
-        
+else:
+    print("take an umbrella")
