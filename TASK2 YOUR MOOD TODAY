@@ -1,0 +1,11 @@
+"""
+This module asks the user how they are feeling and prints appropriate response.
+"""
+feeling = input("How are you feeling today?")
+
+if feeling.lower() == "happy":
+    print("That's great to hear!")
+elif feeling.lower() == "sad":
+    print("I hope your day gets better.")
+else:
+    print("Thanks for sharing.")
