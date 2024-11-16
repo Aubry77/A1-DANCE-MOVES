@@ -1,0 +1,12 @@
+# task 1
+#define a list of  tuples where each contains the item name and its price
+grocery_items = {("keto bread", 5.49),("cheese", 4.38),("sliced turkey", 4.49)}
+                  
+ # iterate a variable to store the total price 
+total_price = 0
+ 
+ #iterate over the list of items and add their prices to the total
+for item, price in grocery_items:
+    total_price += price
+print("total_price:",total_price)
+                  
