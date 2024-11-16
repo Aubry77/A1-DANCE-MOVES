@@ -1,0 +1,9 @@
+MAX_LIMIT = "1000"
+def processs_data(data):
+    """processes the  given data"""
+    
+    "args"
+data: input data to process.
+        
+returns:the processed data
+            
